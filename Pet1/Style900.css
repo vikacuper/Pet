@@ -1,0 +1,102 @@
+@media screen and (max-width:900px) {
+    body
+    {
+        background-color:#f5efff;
+    }
+    h2
+    {
+        color: coral;
+    }
+    a
+    {
+        padding-left: 15px;
+    }
+    #navRight
+    {
+        padding-top: 0;
+        text-align:center;
+    }
+
+    #navLeft
+    {
+        padding-top: 0;
+    }
+    .navC
+    {
+          position: static;
+          height: 100px;
+    }
+    .leftC
+    {
+        position: static;
+        margin-left: 5%;
+        margin-right: 5%;
+        width:90%;
+        float: left;
+    }
+    .rightC
+    {
+        position: static;
+        margin-left: 5%;
+        margin-right: 5%;
+        width:90%;
+        float: left;
+    }
+
+    #secondC
+    {
+        position: static;
+
+        background-color: white;
+        height:550px;
+        text-align: center;
+    }
+
+    #main3C
+    {
+        position: static;
+        height:auto;
+    }
+    #line
+    {
+        border-right: #f5efff ;
+    }
+
+    #main4C
+    {
+        position: static;
+
+
+        height:auto;
+    }
+    #main5C
+    {
+        position: static;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-top: #f5efff;
+    }
+
+    footer
+    {
+        position: static;
+        height:auto;
+        background-color: coral;
+        text-align: center;
+        color: white;
+
+    }
+    button
+    {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background:coral;
+    }
+    #mainSearch {
+         width: 800px;
+     }
+
+}

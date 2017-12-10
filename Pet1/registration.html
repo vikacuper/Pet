@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="Style900.css" />
+    <link rel="stylesheet" href="Style480.css" />
+    <script src="jquery-3.1.1.min.js"></script>
+    <script charset="WINDOWS-1251" src="reg.js" type="text/javascript" ></script>
+    <title>Приют для животных</title>
+</head>
+<body>
+<main class="main">
+    <nav class="navC">
+        <div class="leftC" id="navLeft">
+            <h2><img src="cat.png" height="25" width="40">   Приют для животных</h2>
+        </div>
+        <div class="rightC" id="navRight">
+            <a href="main.html">Главная</a>
+            <a href="search.html">Ищем хозяев</a>
+            <a href="registration.html">Волонтера</a>
+
+        </div>
+    </nav>
+
+    <form id="form" name="form1" onsubmit="return f_submit();">
+        <h2>✦✦✦Регистрация пользователя✦✦✦</h2>
+        <div>
+            <input placeholder="Имя" type="text" name="name1" id="name1"><br>
+            <input placeholder="Фамилия" type="text" name="fam1" id="fam1"><br>
+            <input placeholder="Возраст" type="text" name="age1" id="age1"><br>
+            <input placeholder="E-mail" type="text" name="mail1" id="mail1"><br>
+            <input placeholder="Пароль" type="password" name="pass1" id="pass1"><br>
+            <input placeholder="Повторите пароль" type="password" name="pass2" id="pass2">
+            <br><br>
+            <input class="button" type="reset" value="Очистить">
+            <input class="button" type="submit" value="Отправить">
+        </div>
+        </form>
+    </main>
+</body>
+</html>
